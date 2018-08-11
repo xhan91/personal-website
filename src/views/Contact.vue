@@ -3,7 +3,7 @@
     <el-card 
     v-for="contact in contacts" 
     :key="contact.name"
-    :style="contact.style"
+    :style="backgroundAndText(contact)"
     shadow="hover">
       <a class="j-a" :href="contact.link">
         <h1>{{ contact.name }}</h1>
@@ -14,10 +14,10 @@
 
 <script>
 const contacts = [];
-contacts.push({name: "LinkedIn", link: "https://www.linkedin.com/in/xu-josh-han-b68b95122/", style: "background-color: #0077B5; color: white"});
-contacts.push({name: "GitHub", link:"https://github.com/xhan91", style: "background-color: #24292e; color: white"});
-contacts.push({name: "Email", link:"mailto:xhan91ca@gmail.com", style: "background-color: white; color: black"});
-contacts.push({name: "Blog", link:"https://blog.josh-han.com", style: "background-color: #222; color:white"});
+contacts.push({name: "LinkedIn", link: "https://www.linkedin.com/in/xu-josh-han-b68b95122/", bg: "#0077B5", tx: "white"});
+contacts.push({name: "GitHub", link:"https://github.com/xhan91", bg: "#24292e", tx: "white"});
+contacts.push({name: "Email", link:"mailto:xhan91ca@gmail.com", bg: "white", tx: "black"});
+contacts.push({name: "Blog", link:"https://blog.josh-han.com", bg: "#222", tx: "white"});
 
 export default {
   name: "Contact",
@@ -25,6 +25,11 @@ export default {
     return {
       contacts
     };
+  },
+  methods: {
+    backgroundAndText(contact) {
+      return `background-color: ${contact.bg}; color: ${contact.tx}`;
+    }
   }
 }</script>
 
