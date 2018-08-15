@@ -4,6 +4,7 @@
       <el-col :sm="{span: 24}" :md="{span:12, offset:6}">
         <Header></Header>
         <router-view></router-view>
+        <Footer></Footer>
       </el-col>
     </el-row>
   </div>
@@ -11,11 +12,13 @@
 
 <script>
 import Header from '@/components/Header.vue';
+import Footer from '@/components/Footer.vue';
 
 export default {
   name: 'app',
   components: {
-    Header
+    Header,
+    Footer
   }
 }</script>
 
@@ -28,7 +31,7 @@ body {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  text-align: left;
   color: #2c3e50;
   margin: 0 21px;
 }

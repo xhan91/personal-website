@@ -23,7 +23,7 @@ export default {
   },
   computed: {
     activeName() {
-      return this.$router.history.current.name;
+      return this.$route.name;
     }
   },
   methods: {

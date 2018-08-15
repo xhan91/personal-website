@@ -34,6 +34,9 @@ export default {
 }</script>
 
 <style lang="stylus">
+  .contact
+    text-align center
+
   .j-a
   .j-a:link
   .j-a:visited
