@@ -1,5 +1,9 @@
 <template>
   <div class="about">
-    <p>I am a full stack developer with a computer science degree and solid background knowledge about algorithm and data structure, as well as solid development experience of both frontend and backend. I have experience of working in a SCRUM agile software development team. Also I have experience of working with Kubernetes managed on Google Cloud, developing and deploying containers.</p>
+    <h3>About me</h3>
+    <ul><li>A full stack developer
+    </li></ul>
+    <ul><li>High level of enthusiasm in technology
+    </li></ul>
   </div>
 </template>
