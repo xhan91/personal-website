@@ -5,5 +5,7 @@
     </li></ul>
     <ul><li>High level of enthusiasm in technology
     </li></ul>
+    <ul><li>Amateur photographer
+    </li></ul>
   </div>
 </template>

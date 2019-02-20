@@ -1,38 +1,36 @@
 <template>
   <div class="home">
-    <p class="j-hashtag"><span class='hashtag'>#Resume</span></p><a href="/Xu_Han-Software_Engineer.pdf" class="j-pdf-button" ><el-button type="success" plain>View as PDF</el-button></a>
+    <h1>Xu Han - Software Development Engineer </h1>
+    <p>Email: <a href="mailto:xhan91ca@gmail.com">xhan91ca@gmail.com</a> | Phone: 1-778-869-9722 | Website: <a href="https://josh-han.com">https://josh-han.com</a></p>
     <hr>
-    <h3>Personal Information</h3>
-    <p><b>Name:</b> (Josh) Xu Han</p>
-    <p><b>Location:</b> Vancouver, BC, Canada</p>
+    <h2>Skills</h2>
+    <p>Javascript, Vue.js, Java, Spring framework, Golang, Python, Kubernetes, SQL</p>
     <hr>
-    <h3>Education</h3>
-    <ul><li><b>Web Development Bootcamp | Lighthouse Labs, Vancouver, Canada</b> 2016.6 – 2016.8  
-    </li><li><b>MSc Project and Enterprise Management | University College London, UK</b> 2013.9 – 2014.9 
-    </li><li><b>BSc Computer Science and Management | University of Nottingham, UK</b> 2009.9 – 2013.6 
-    </li></ul>
-    <hr>
-    <h3>Experience</h3>
-    <ul><li><b>Software Engineer | Adacado, Vancouver, Canada</b> 2016.8 - Current
+    <h2>Experience</h2>
+    <p><b>Adacado Technology Inc., Vancouver, Canada</b></p>
+    <p>Adacado is a real-time creative ad solution provider, providing online ad generation and ad serving services.</p>
+    <ul><li>Intermediate Software Engineer(full stack) <i>2018.11 - Current</i>
     </li></ul>
     <blockquote>
-    <p>- Test driven development of both frontend and backend features</p>
-    <p>- Learning new languages and techniques and implement in production project </p>
+    <p>- Design, implement, test and ship components in a Kubernetes-based microservice architecture independently</p>
+    <p>- Mentor and support junior co-workers in teamwork ad as needed</p>
     </blockquote>
-    <ul><li><b>Assistant Procurement Manager | Hebei Zhongcheng Group, Hebei, China</b> 2014.9 - 2015.10
+    <ul><li>Junior Software Engineer(full stack) <i>2016.8 - 2018.10</i>
     </li></ul>
-    <blockquote>
-    <p>Responsible for negotiating suppliers, optimizing supply chain and keeping raw material supply with coworkers as a team. </p>
-    </blockquote>
     <hr>
-    <h3>Skill Set</h3>
-    <ul><li>Good at <b>Java</b>, worked deeply with <b>Spring framework</b>, knowledge of <b>design pattern</b> implementation and usage in a Java project, experience with profiling in JVM.
-    </li><li>Using <b>React.js</b> and <b>Vue.js</b> as frontend framework, familiar with idea of data flow with tools <b>Redux</b> and <b>Vuex</b>.
-    </li><li>Much experience with <b>Python</b> (3 preferred) in side projects, code in pythonic way.
-    </li><li>Have used <b>Kubernetes</b> in production projects, much experience of building, developing, deploying and managing <b>docker</b> containers.
-    </li><li>Using <b>Jenkins</b> as CI/CD tools.
-    </li><li>A good fit when working in <b>SCRUM</b> agile software development team.
+    <h2>Achievements</h2>
+    <ul><li>I implemented an image caching service, reducing more than 90% of the daily downloading traffic for ad generation.
+    </li><li>As a member of 7 people team, we rebuilt a platform serving millions of online advertisements in 6 months, achieving more than 10 times efficiency in ad-generation as well as better ad-serving. During the project, I was solely responsible for certain components’ design, implementation, test and shipment.
     </li></ul>
+    <hr>
+    <h2>Education</h2>
+    <ul><li><b>Web Development Bootcamp, Lighthouse Labs</b>, Vancouver, Canada 
+    </li><li><b>MSc Project and Enterprise Management</b>, University College London, UK 
+    </li><li><b>BSc Computer Science</b>, University of Nottingham, UK 
+    </li></ul>
+    <hr>
+    <h2>Summary</h2>
+    <p>I am a software development engineer with solid computer science knowledge and 2+ years work experience. As I have always been seeking personal growth, I am keen to learn and improve. Projects are built on solid knowledge while developing as a career lands on my creative heart.</p>
   </div>
 </template>
 
