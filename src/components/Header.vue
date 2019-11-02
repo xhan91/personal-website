@@ -2,7 +2,7 @@
   <div>
     <div class="j-header">
       <h1 class="j-title">Josh Han</h1>
-      <h3 class="j-subtitle">A tech explorer / wife lover</h3>
+      <h3 class="j-subtitle">行至水穷处 坐看云起时</h3>
       <el-tabs :activeName="activeName" @tab-click="navigate">
         <el-tab-pane v-for="tab in tabs" :key="tab" :label="tab" :name="tab"></el-tab-pane>
       </el-tabs>

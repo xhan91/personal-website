@@ -17,7 +17,7 @@ const contacts = [];
 contacts.push({name: "LinkedIn", link: "https://www.linkedin.com/in/xu-josh-han-b68b95122/", bg: "#0077B5", tx: "white"});
 contacts.push({name: "GitHub", link:"https://github.com/xhan91", bg: "#24292e", tx: "white"});
 contacts.push({name: "Email", link:"mailto:xhan91ca@gmail.com", bg: "white", tx: "black"});
-contacts.push({name: "Blog", link:"https://blog.josh-han.com", bg: "#222", tx: "white"});
+contacts.push({name: "Blog", link:"https://blog.xhan91.com", bg: "#222", tx: "white"});
 
 export default {
   name: "Contact",
